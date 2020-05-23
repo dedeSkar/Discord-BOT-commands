@@ -27,6 +27,7 @@ class discord_commands(commands.Cog):
     async def on_ready(self):
         print('Bot is Online')
     
+    #Quick Note, this remind command will not work if the program was restarted
     @commands.command() #Reminds user about the text that he wrote 
     async def remind(self, ctx, user_seconds, *, user_remind_text):
     #check what end does string have, to set time acordingly
