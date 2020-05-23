@@ -1,6 +1,9 @@
 import discord, math, asyncio, random, requests, json, time, asyncio, io, aiohttp
 from discord.ext import commands
 
+#global vars
+todo_items = []
+
 #those 2 functions are used for todo commands
 #file save command
 def file_save(member):
